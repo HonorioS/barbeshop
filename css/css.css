@@ -1,0 +1,2736 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    /*  scrool de baixo posix X
+	/*overflow-y: hidden;         scrool de baixo posix X */
+}
+
+.box-preload {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    background: white;
+    position: fixed;
+    z-index: 99;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-title-info {
+    margin-left: 12px;
+    margin-top: 30px;
+    border-bottom: thick solid#DBA901;
+    width: 220px;
+}
+
+.box-title-info label {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.box-new-main-page .box-title-info {
+    width: 250px;
+}
+
+.box-item-news {
+    display: flex;
+}
+
+.box-new-icon {
+    background: white;
+    width: 50%;
+    height: 120px;
+    margin-top: 30px;
+    margin-left: 12px;
+    text-align: center;
+}
+
+.box-new-icon label {
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 10px;
+    border-bottom: thick solid #DBA901;
+}
+
+.box-tex-news {
+    background: white;
+    width: 100%;
+    height: 100%;
+    margin-top: 30px;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+.box-tex-news p {
+    text-align: center;
+    padding-top: 12px;
+    font-weight: bold;
+    padding-left: 8px;
+    padding-right: 8px;
+    font-style: italic;
+}
+
+.box-date-news {
+    margin-right: 6px;
+    font-style: italic;
+    color: #DBA901;
+    font-size: 12px;
+    float: right;
+    margin: auto;
+    margin-right: 6px;
+    font-weight: bold;
+}
+
+.iconDate {
+    margin-right: 5px;
+}
+
+.box-text-marcacao {
+    display: flex;
+    margin-top: 20px;
+}
+
+.box-link-marcacao {
+    background: #DBA901;
+    width: 95%;
+    height: 80px;
+    margin-top: 15px;
+    margin-left: 12px;
+    text-align: center;
+    color: white;
+    padding-top: 25px;
+}
+
+.id_info_icon {
+    margin-top: 17px;
+    color: black;
+    border-bottom: thick solid #DBA901;
+}
+
+.box-link-marcacao label {
+    font-weight: bold;
+    /*   color: white; */
+}
+
+.box-link-marcacao:hover {
+    cursor: pointer;
+    background: white;
+    border: thin solid #DBA901;
+    color: #DBA901;
+}
+
+#id_text_1 {
+    background: white;
+    width: 95%;
+    height: 80px;
+    margin-top: 15px;
+    margin-left: 12px;
+    text-align: center;
+}
+
+#id_text_1 p {
+    text-align: justify;
+    font-weight: bold;
+    padding-left: 6px;
+    padding-right: 6px;
+    font-style: italic;
+}
+
+#icon_marcacao {
+    background: white;
+    width: 130px;
+    height: 100px;
+    margin-top: 30px;
+    margin-left: 12px;
+}
+
+.box-info-vagas {
+    display: flex;
+    margin-top: 12px;
+    width: 100%;
+    height: 80px;
+}
+
+.box-number-vagas {
+    margin-left: 12px;
+    width: 90px;
+    height: 90px;
+    background: white;
+    text-align: center;
+}
+
+.box-number-vagas label {
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+    box-shadow: sandybrown 12px;
+    margin-top: 15px;
+    border-bottom: thick solid #DBA901;
+}
+
+.box-info-text_vagas {
+    margin-left: 12px;
+    width: 100%;
+    height: 90px;
+    margin-right: 12px;
+    background: white;
+}
+
+.box-info-text_vagas label {
+    text-align: justify;
+    margin-top: 12px;
+    padding-left: 12px;
+    font-style: italic;
+    color: #DBA901;
+    font-size: 18px;
+    font-weight: bold;
+    width: 100%;
+    padding-right: 12px;
+    height: 100%;
+}
+
+#id_text_marcacao {
+    background: white;
+    width: 100%;
+    height: 100px;
+    margin-top: 30px;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+#id_text_marcacao p {
+    font-weight: bold;
+    text-align: justify;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 12px;
+    font-style: italic;
+    text-shadow: #DBA901 8px 8px 8px;
+}
+
+.box-info-main-page {
+    display: flex;
+    background: white;
+    width: 100%;
+    height: 530px;
+}
+
+.box-about-main-page {
+    background: black;
+    height: 510px;
+    width: 100%;
+    margin-top: 10px;
+    margin-left: 8px;
+}
+
+.box-text-marcacao {
+    margin-top: 200px;
+    text-align: center;
+    margin: auto;
+}
+
+.box-impro-text {
+    width: 95%;
+    height: 230px;
+    background: white;
+    margin-top: 12px;
+    margin-left: 10px;
+    margin-right: 12px;
+}
+
+.box-impro-text p {
+    padding-top: 5px;
+    text-align: justify;
+    font-style: italic;
+    padding-right: 8px;
+    padding-left: 4px;
+    font-size: 15px;
+    text-decoration-style: solid;
+}
+
+.box-logo-about {
+    margin-bottom: 8px;
+    width: 400px;
+    height: 255px;
+    text-align: center;
+    margin: auto;
+    margin-top: 8px;
+}
+
+.box-new-main-page {
+    background: black;
+    height: 510px;
+    width: 100%;
+    margin-top: 10px;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.box-new-main-page {
+    margin-left: 12px;
+}
+
+.box-info-marcacao-main-page {
+    background: black;
+    height: 510px;
+    width: 100%;
+    margin-top: 10px;
+    margin-left: 8px;
+}
+
+
+/* .box-text-marcacao {} */
+
+.box-preload>img {
+    width: 100px;
+}
+
+.box-preload.hidden {
+    animation: fadeOut 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeOut {
+    100% {
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+
+
+/** menu Principal inicio **/
+
+.navbar {
+    background-color: #000000;
+    /*** definicao da cor barra horizontal **/
+    height: 120px;
+    /*** definicao da altura barra horizontal **/
+}
+
+#Admin {
+    padding-left: 15px;
+    text-align: center;
+    color: #DBA901;
+    margin-left: 50px;
+    font-style: normal;
+    font-weight: bold;
+    /*** do espaçamento do icon admnin **/
+}
+
+#Admin:hover {
+    cursor: pointer;
+    border: none !important;
+    border-bottom: thick solid #DBA901 !important;
+    /*** definição dos efeitos quando se passa o mouse **/
+    /* box-shadow: 4px 30px 16px #393B0B;
+   /* border-radius: 50%;
+    background-color: #886A08;*/
+}
+
+.navbar-nav {
+    /*** definição dos tamanho e espaçamentos entre os elementos que compoe o menu **/
+    font-size: 14px;
+    padding-right: 20px;
+    font-style: italic;
+}
+
+.nav-itemv {
+    /* definição dos espaçamentos item do menu*/
+    padding-right: 20px;
+}
+
+
+/*** definição dos item redes social efeitos sobre mouse **/
+
+.nav-item:hover {
+    cursor: pointer;
+    transform: translateY(-20px);
+    background-color: #084B8A;
+    /* rgba(139, 69, 19, 0.644)*/
+    box-shadow: 4px 30px 16px #393B0B;
+    border-radius: 50%;
+}
+
+.carousel {
+    margin-top: 120px;
+}
+
+
+/*** definicao dos efeitos sobre mouser houver item, do menu principal**/
+
+#about:hover,
+#bookReclamtion:hover,
+#Contactos:hover,
+#Galeria:hover,
+#admin_menu:hover,
+#marcacao:hover {
+    cursor: pointer;
+    border: none !important;
+    border-bottom: thick solid #DBA901 !important;
+}
+
+#admin_menu {
+    color: #DBA901;
+}
+
+#admin_menu #about,
+#bookReclamtion,
+#Contactos,
+#Galeria,
+#admin_menu,
+#marcacao {
+    height: 43px;
+}
+
+
+/** menu Principal fim **/
+
+
+/*** Contactos  morada horario inicio**/
+
+.box-morada {
+    background-color: #000000;
+    /* width: 1585px;*/
+    height: 900px;
+    margin-bottom: 0px;
+}
+
+.localizacao,
+.Horario {
+    color: #886A08;
+    padding-left: 150px;
+    padding-top: 50px;
+}
+
+.adress {
+    color: #FFFFFF;
+    margin-top: -80px;
+    padding-left: 500px;
+    font-size: 14px;
+    font-style: italic;
+}
+
+.call {
+    color: #FFFFFF;
+    margin-top: -5%;
+    padding-left: 500px;
+    font-size: 14px;
+    font-style: italic;
+}
+
+.googleMap {
+    padding-top: 50px;
+    /*padding-left:200px;*/
+    /* margin-left: 70%;*/
+}
+
+
+/*** Contactos  morada horario fim **/
+
+
+/** marcacao inicio**/
+
+.box-marcacao {
+    background-color: #886A08;
+    /* width: 1590px;*/
+    height: 600px;
+}
+
+#titleMarcacao {
+    font-size: 25px;
+    color: #FFFFFF;
+}
+
+
+/** marcacao fim**/
+
+
+/** sugestao e Reclamacao inicio**/
+
+.box-sugestaoReclamacao {
+    background-color: #FFFFFF;
+    height: 100px;
+}
+
+table tr th {
+    padding-left: 8px;
+}
+
+table tr #tbl_faleConosco {
+    padding-left: 140px;
+}
+
+
+/** sugestao e Reclamacao fim**/
+
+
+/** about  incio**/
+
+.box-about {
+    height: 50px;
+}
+
+#logo {
+    margin-top: 25px;
+}
+
+.txtAbout {
+    padding-left: 500px;
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+}
+
+
+/** about fim**/
+
+.box-linhaHorizontal {
+    background-color: #DBA901;
+    height: 8px;
+    /* margin-top: 75px; */
+}
+
+
+/** rodape **/
+
+.box-footer {
+    background-color: #000000;
+    height: 200px;
+}
+
+.page-footer {
+    background-color: #000000;
+    height: 350px;
+}
+
+.barraVertical {
+    background-color: #886A08;
+    height: 150px;
+    width: 5px;
+    margin-left: 400px;
+}
+
+#footerCopyright {
+    font-size: 12px;
+    color: #000000;
+    font-style: italic;
+}
+
+#copFooter {
+    text-align: center;
+    margin-left: 250px;
+}
+
+
+/** rodape fim */
+
+
+/** Pagina Marcacao inicio*/
+
+.box-PgMarcacao {
+    background-color: #886A08;
+    /* width: 1590px;*/
+    height: 600px;
+    margin-top: 0px;
+    margin-bottom: -100px;
+}
+
+
+/** Pagina Marcacao Fim **/
+
+
+/** Pagina recrutamento */
+
+
+/*.form-control{border-width: 2px; border-color: #FACC2E;}  /*controlar as cores do form*/
+
+
+/** Pagina recrutamento fim */
+
+
+/** pagina admin **/
+
+.box-tabelaMarcacao {
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-top: 20px;
+    height: 300px;
+    border: 3px solid #000000;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+.titleTblMarcacao {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #000000;
+}
+
+#tblMarcacao tr th {
+    padding-left: 70px;
+    color: #000000;
+}
+
+.box-tabelaCandidatura {
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 100px;
+    height: 300px;
+    border: 3px solid #000000;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+.box-titleMorada {
+    margin: auto;
+    text-align: center;
+    margin-top: 12px;
+}
+
+.titleMorada {
+    color: #FFFFFF;
+    font-size: 13px;
+    text-align: center;
+    position: relative;
+    display: inline;
+    padding-left: 110px;
+    padding-right: 100px;
+}
+
+.itemMorada {
+    margin-top: 15px;
+    color: #886A08;
+    font-size: 13px;
+    display: inline-flex;
+    position: relative;
+    padding-left: 0px;
+    padding-right: 0px;
+    font-weight: bold;
+}
+
+.box-item {
+    margin: auto;
+    text-align: center;
+}
+
+.itemAddr {
+    width: 260px;
+    height: 80px;
+    margin-right: 110px;
+    /* text-align: center;*/
+}
+
+.itemContacto {
+    width: 280px;
+    margin-right: 140px;
+    text-align: center;
+}
+
+.itemHorario {
+    width: 230px;
+    padding-left: 10px;
+}
+
+.titleHorario {
+    padding-left: 140px;
+}
+
+
+/** pagina admin  fim**/
+
+
+/** pagina sugestão **/
+
+
+/** pagina sugestão fim  ** /
+
+
+
+/** box alogin ***/
+
+.box-login {
+    display: none;
+    /*  background-color: #000000; */
+    height: 210px;
+    width: 400px;
+    position: absolute;
+    z-index: auto;
+    margin-left: 990px;
+    margin-top: 325px;
+}
+
+.box-loginItem {
+    height: 200px;
+    width: 250px;
+    border-radius: 12px;
+    border: solid 5px #DBA901;
+    border-width: thin;
+    background: black;
+}
+
+.config-icon-pass {
+    float: right;
+    margin-right: 6px;
+    color: #DBA901;
+}
+
+.config-icon-pass:hover {
+    cursor: pointer;
+    color: seagreen;
+}
+
+.toggle-off-pass-login {
+    display: none;
+}
+
+.toggle-on-pass-login {
+    display: block;
+}
+
+.box-fr-login-user {
+    text-align: center;
+    border-radius: 12px;
+    border: solid 5px #DBA901;
+    border-width: thin;
+    width: 200px;
+    margin-top: 45px;
+    margin-left: 30px;
+}
+
+.box-fr-login-pass {
+    text-align: center;
+    border-radius: 12px;
+    border: solid 5px #DBA901;
+    border-width: thin;
+    width: 200px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.box-remenber-login {
+    margin-left: 30px;
+    margin-top: 5px;
+    /*   width: 80px; */
+    height: 25px;
+}
+
+.box-remenber-login label {
+    color: #DBA901;
+}
+
+.box-fr-login-pass i {
+    margin-left: 20px;
+}
+
+
+/* .box-fr-login-user i {
+    position: absolute;
+} */
+
+.icon {
+    color: #DBA901;
+    width: 70px;
+    left: 34px;
+}
+
+.box-fr-login-user input[type='text'] {
+    background-color: transparent;
+    border: none !important;
+    width: 150px;
+    color: white;
+    outline: none;
+}
+
+.box-fr-login-pass input[type='password'],
+.box-fr-login-pass input[type='text'] {
+    background-color: transparent;
+    border: none !important;
+    width: 150px;
+    color: white;
+    outline: none;
+}
+
+.box-btn-login {
+    display: block;
+    margin-left: 120px;
+    color: #DBA901;
+    text-align: center;
+    position: absolute;
+    height: 20px;
+}
+
+.box-btn-login :hover {
+    cursor: pointer;
+    color: green;
+}
+
+.box-error-login {
+    margin-top: 20px;
+    text-align: center;
+    color: red;
+    display: none;
+}
+
+.box-input {
+    background-color: transparent;
+    border: none !important;
+    border-bottom: thin solid #FFFFFF !important;
+    color: #FFFFFF;
+    height: 30px;
+    margin-left: 23px;
+}
+
+#btnLogin {
+    background-color: transparent;
+    border: none !important;
+}
+
+.box-cancel-login {
+    float: right;
+    margin-right: 8px;
+    color: #DBA901;
+}
+
+.box-cancel-login:hover {
+    cursor: pointer;
+    color: red;
+}
+
+#Admin-lgout :hover {
+    cursor: pointer;
+    border: none !important;
+    color: grey;
+}
+
+
+/** show pass **/
+
+#hidePass {
+    display: none;
+    position: relative;
+    left: 180px;
+    top: -26px;
+}
+
+#shopPass {
+    position: relative;
+    left: 180px;
+    top: -26px;
+}
+
+.box-pass {
+    margin-top: -30px;
+}
+
+.loginBtn {
+    margin-top: -43px;
+    margin-left: 90px;
+}
+
+#userIcon {
+    position: relative;
+    bottom: -30px
+}
+
+
+/*** admin  area css  ***/
+
+.content-menu-admin {
+    display: none;
+    z-index: 99;
+    position: absolute;
+    border: solid thin #DBA901;
+    width: 340px;
+    height: 630px;
+    margin-bottom: 12px;
+    background: white;
+}
+
+.main-item-admin {
+    display: block;
+    width: 3500px;
+    height: 690px;
+    padding-left: 15px;
+}
+
+.single-item-admin {
+    margin-top: 8px;
+    background: #DBA901;
+    width: 8%;
+    height: 8%;
+    color: white;
+}
+
+.single-item-admin:hover {
+    cursor: pointer;
+    color: #DBA901;
+    border: thin solid #DBA901;
+    background: white;
+}
+
+.bx-cancel-menuAdmin {
+    color: #DBA901;
+    margin-left: 8.5%;
+    margin-top: 12px;
+}
+
+.bx-cancel-menuAdmin .fa-times:hover {
+    cursor: pointer;
+    color: red;
+}
+
+.icon-admin-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 12px;
+}
+
+.icon-admin-item label {
+    padding-left: 12px;
+}
+
+.box-menu-Admin {
+    background-color: #000000;
+    height: 70px;
+    width: 1200px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 129px;
+}
+
+.box-menuItem-admin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 12px;
+}
+
+.box-item-admin {
+    background-color: #848484;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    margin-left: 80px;
+    border: thick solid #4f822d;
+    border-width: thin;
+}
+
+
+/**  lista mnarcacao **/
+
+.dinamic-list {
+    height: 30px;
+    width: 1180px;
+    margin: auto;
+    text-align: center;
+    border-bottom: 5px solid #000000;
+    border-width: thin;
+    background-color: #D8D8D8;
+}
+
+.dinamic-listUser {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border-bottom: 5px solid #000000;
+    border-width: thin;
+    /* background-color: #D8D8D8;*/
+}
+
+.box-flexItem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 60px;*/
+}
+
+
+/*.dinamic-itemlista {
+    padding-right: 45px;
+    padding-left: 45px;
+}*/
+
+
+/*.dinamic-itemlista {
+    /*  padding-right: 70px;
+
+font-size: 18px;
+float: left;
+}*/
+
+.dinamic-itemlista {
+    width: 200px;
+    height: 24px;
+    float: left;
+}
+
+.add-user {
+    position: relative;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    margin-left: 20px;
+    margin-top: 15px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: solid 5px #DBA901;
+    border-width: thin;
+    color: black;
+}
+
+.add-user .tooltipDesc {
+    visibility: hidden;
+    width: 80px;
+    height: 30px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    position: absolute;
+    z-index: 1;
+    left: 50%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.add-user .tooltipDesc {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 100%;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black transparent transparent transparent;
+    text-align: center;
+}
+
+#emailID {
+    margin-left: 150px;
+    margin-right: 160px;
+}
+
+#nomeID {
+    margin-left: 30px;
+}
+
+#apagarID {
+    margin-left: 25px;
+}
+
+.communTitle {
+    display: flex;
+}
+
+.box-infos {
+    text-align: center;
+    color: green;
+    margin: auto;
+    height: 20px;
+    width: 180px;
+    padding-bottom: 30px;
+}
+
+.box-titleItem-admin {
+    color: white;
+    margin-top: 45px;
+    padding-top: 2px;
+    text-align: center;
+    margin-left: -20px;
+    font-size: 12px;
+    width: 100px;
+}
+
+.bxConfigAcess-fr {
+    border-radius: 12px;
+    border: solid 5px #DBA901;
+    border-width: thin;
+    height: 60px;
+    width: 250px;
+    margin-left: 25%;
+    margin-top: 12px;
+}
+
+#box-logout {
+    margin-right: 80px;
+}
+
+
+/** BOX USER LIST **/
+
+
+/** toggle **/
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+
+#toggleBX {
+    width: 75px;
+    height: 60px;
+    margin-top: -2px
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+    border-radius: 12px;
+    border: solid 5px #DBA901;
+    border-width: thin;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+    border-radius: 12px;
+    border: solid 5px #DBA901;
+    border-width: thin;
+}
+
+input:checked+.slider {
+    background-color: #DBA901;
+}
+
+input:focus+.slider {
+    box-shadow: 0 0 1px #DBA901;
+}
+
+input:checked+.slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+
+/* Rounded sl iders */
+
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+
+
+/*}*/
+
+
+/** toggle end **/
+
+.bx-fr-user,
+.bx-fr-marcacao {
+    margin-left: 6%;
+    margin-top: 20px;
+}
+
+.configUserItem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 12px;
+}
+
+.contentBxUser {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 120px;
+    /*  height: 500; */
+}
+
+.itemName-box {
+    width: 170px;
+    margin-left: 20px;
+    /*  margin-right: 20px; */
+}
+
+.box-error-info-marcacao {
+    text-align: center;
+    color: red;
+    display: none;
+}
+
+#error-info {
+    text-align: center;
+    margin-top: 13px;
+}
+
+.box-marcacao-form {
+    border-radius: 12px;
+    border: solid 5px #DBA901;
+    border-width: thin;
+    width: 600px;
+    height: 530px;
+    margin: auto;
+    margin-top: 150px;
+    display: block;
+    margin-bottom: 30px;
+}
+
+.itemEmail-box {
+    width: 370px;
+    margin-left: 150px;
+}
+
+.box-adress-main-page {
+    background: black;
+    height: 540px;
+    width: 100%;
+    display: inline-flex;
+}
+
+.box-adress {
+    background: white;
+    height: 510px;
+    width: 100%;
+    margin-top: 20px;
+    margin-left: 8px;
+}
+
+.box-contacto {
+    background: white;
+    height: 510px;
+    ;
+    width: 900px;
+    margin-top: 20px;
+    margin-left: 8px;
+}
+
+.box-horarios {
+    float: right;
+    background: white;
+    height: 510px;
+    width: 70%;
+    margin-top: 20px;
+    margin-left: 8px;
+    margin-right: 12px;
+}
+
+.title-adress {
+    margin: auto;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.box-item-horario {
+    display: flex;
+}
+
+.box-dia {
+    margin-left: 12px;
+    background: #DBA901;
+    width: 150px;
+    height: 40px;
+    margin-top: 20px;
+    text-align: center;
+    color: black;
+    border-bottom: thick solid black;
+}
+
+.item-horario {
+    margin-left: 12px;
+    margin-right: 12px;
+    background: #DBA901;
+    width: 100%;
+    height: 40px;
+    margin-top: 20px;
+    text-align: center;
+    color: black;
+    border-bottom: thick solid black;
+}
+
+.item-horario label {
+    font-weight: bold;
+    margin-top: 6px;
+    color: white;
+    font-size: 15px;
+}
+
+#id_domigo {
+    font-weight: bold;
+    margin-top: 6px;
+    color: red
+}
+
+.box-dia label {
+    font-weight: bold;
+    margin-top: 6px;
+    font-size: 18px;
+    color: white;
+}
+
+.icon-contacto {
+    margin-left: 8px;
+    background: #DBA901;
+    width: 50px;
+    height: 40px;
+    margin-top: 20px;
+    text-align: center;
+    color: black;
+    border-bottom: thick solid black;
+}
+
+.box-item-contacto {
+    display: flex;
+}
+
+.item-talk {
+    margin-left: 12px;
+    background: #DBA901;
+    width: 100%;
+    height: 40px;
+    margin-top: 20px;
+    margin-right: 12px;
+    text-align: center;
+    color: black;
+    border-bottom: thick solid black;
+}
+
+.item-talk label {
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+.box-maps {
+    margin-top: 10px;
+    margin-left: 12px;
+    margin-right: 12px;
+    display: flex;
+    width: 96%;
+    height: 330px;
+    border: thin solid #DBA901;
+}
+
+.box-maps iframe {
+    width: 100%;
+}
+
+.bx-home-adress {
+    margin-top: 15px;
+    width: 96%;
+    height: 60px;
+    background: #DBA901;
+    margin-left: 12px;
+    margin-right: 30px;
+}
+
+.bx-home-adress div {
+    margin: auto;
+    text-align: center;
+}
+
+.bx-home-adress div label {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.title-adress label {
+    font-weight: bold;
+    font-size: 20px;
+    border-bottom: thick solid #DBA901;
+}
+
+.itemListaIconED {
+    margin-right: 50px;
+}
+
+.itemListaIconDel {
+    margin-left: -10px;
+}
+
+.itemListaIconDel :hover {
+    color: red;
+}
+
+.itemListaIconED :hover {
+    color: #DBA901;
+}
+
+.add-user:hover .tooltipDesc {
+    visibility: visible;
+    opacity: 1;
+}
+
+.add-user:hover {
+    color: #DBA901;
+}
+
+.cancelBoxUser {
+    position: relative;
+    float: right;
+    margin-right: 8px;
+    color: #DBA901;
+}
+
+.cancelBoxUser .tooltipDesc {
+    visibility: hidden;
+    width: 80px;
+    height: 30px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    position: absolute;
+    z-index: 1;
+    left: 50%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.cancelBoxUser .tooltipDesc {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 100%;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black transparent transparent transparent;
+    text-align: center;
+}
+
+.cancelBoxUser:hover .tooltipDesc {
+    visibility: visible;
+    opacity: 1;
+}
+
+.userTypeID {
+    text-align: center;
+    margin-top: -10px;
+}
+
+.userTypeID input[type='radio'] {
+    -webkit-appearance: none;
+}
+
+.userTypeID input[type='radio']:checked+label {
+    background: #DBA901;
+    border-radius: 50%;
+    /*  height: 60px;
+    width: 60px; */
+}
+
+.labelConfigUser {
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    /*  display: flex;
+    justify-content: center;
+    align-items: center;*/
+}
+
+.bxUserSave {
+    margin-top: 5px;
+    position: relative;
+    margin-left: 50%;
+    color: #DBA901;
+}
+
+.bxUserSave-marcacao {
+    margin-top: 50px;
+    margin: auto;
+    position: relative;
+    color: white;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+    width: 259px;
+    height: 50px;
+    background: #DBA901;
+    text-align: center;
+}
+
+.bxUserSave:hover {
+    cursor: pointer;
+    color: green;
+}
+
+.bxUserSave .tooltipSave {
+    visibility: hidden;
+    width: 80px;
+    height: 30px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    position: absolute;
+    z-index: 1;
+    left: 20%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 0.3s;
+    top: 35px;
+}
+
+#idServico {
+    color: #DBA901;
+}
+
+.bxUserSave-marcacao .tooltipSave {
+    visibility: hidden;
+    width: 80px;
+    height: 30px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    position: absolute;
+    z-index: 1;
+    left: 20%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 0.3s;
+    top: 35px;
+}
+
+.bxUserSave:hover .tooltipSave {
+    visibility: visible;
+    opacity: 1;
+}
+
+.bxUserSave-marcacao:hover .tooltipSave {
+    visibility: visible;
+    opacity: 1;
+}
+
+.cancelBoxUser:hover {
+    color: red;
+}
+
+.box-gestao-utilizador {
+    display: none;
+    margin-top: 2px;
+    margin-bottom: 20px;
+    width: 850px;
+    height: 500px;
+    border: thin solid #DBA901;
+    border-width: thin;
+}
+
+.box-dateFilter-user {
+    margin-left: 12px;
+    margin-bottom: 12px;
+    margin-top: 50px;
+}
+
+.box-dinamic-comun-utilizador {
+    padding-right: 12px;
+    margin-right: 12px;
+}
+
+.bx-listaUtilizadores {
+    overflow: auto;
+    height: 289px;
+    padding-right: 12px;
+    margin-right: 12px;
+    margin-top: 5px;
+}
+
+.bx-comun-user {
+    display: flex;
+}
+
+.userLista {
+    /*  height: 50px; */
+    margin-top: 8px;
+    display: flex;
+}
+
+.box_number_item_user {
+    /*  font-weight: bold; */
+    width: 20px;
+    height: 25px;
+    border: solid thin #DBA901;
+    margin-left: 12px;
+    text-align: center;
+}
+
+.box_item_delet_user {
+    width: 90px;
+    margin-left: 12px;
+    height: 25px;
+    border: solid thin #DBA901;
+    text-align: center;
+    /*  */
+}
+
+.box_item_edit_user {
+    width: 60px;
+    margin-left: 12px;
+    height: 25px;
+    border: solid thin #DBA901;
+    text-align: center;
+}
+
+.box_item_user {
+    /* font-weight: bold; */
+    width: 300px;
+    margin-left: 12px;
+    height: 25px;
+    border: solid thin #DBA901;
+    /*  background: #DBA901; */
+}
+
+.box_item_mail {
+    width: 310px;
+    margin-left: 12px;
+    height: 25px;
+    border: solid thin #DBA901;
+}
+
+.box_comun_nr_user {
+    font-weight: bold;
+    width: 20px;
+    margin-left: 12px;
+    height: 25px;
+    border: solid thin #DBA901;
+    background: #DBA901;
+    text-align: center;
+}
+
+.box_comun_name_user {
+    font-weight: bold;
+    width: 300px;
+    margin-left: 12px;
+    height: 25px;
+    border: solid thin #DBA901;
+    background: #DBA901;
+}
+
+.box_comun_mail_user {
+    font-weight: bold;
+    width: 315px;
+    margin-left: 12px;
+    height: 25px;
+    border: solid thin #DBA901;
+    background: #DBA901;
+}
+
+.box_comun_edit_user {
+    font-weight: bold;
+    width: 60px;
+    margin-left: 12px;
+    height: 25px;
+    border: solid thin #DBA901;
+    background: #DBA901;
+    text-align: center;
+}
+
+.box_comun_delet_user {
+    font-weight: bold;
+    width: 90px;
+    margin-left: 12px;
+    height: 25px;
+    border: solid thin #DBA901;
+    background: #DBA901;
+    text-align: center;
+}
+
+.box-add-user {
+    position: absolute;
+    z-index: 3;
+    display: none;
+    border-radius: 12px;
+    border: solid 5px #DBA901;
+    border-width: thin;
+    width: 400px;
+    height: 340px;
+    background: white;
+    margin-top: 50px;
+}
+
+#titleUserList {
+    text-align: center;
+    color: black;
+    /*  width: 130px; */
+    margin: auto;
+    margin-top: 12px;
+}
+
+.lblFilterUser {
+    color: black;
+    font-weight: bold;
+}
+
+ ::-webkit-scrollbar {
+    width: 7px;
+}
+
+
+/* Track */
+
+ ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px black;
+    border-radius: 10px;
+}
+
+
+/* Handle */
+
+ ::-webkit-scrollbar-thumb {
+    background: #DBA901;
+    border-radius: 10px;
+}
+
+
+/* Handle on hover */
+
+ ::-webkit-scrollbar-thumb:hover {
+    background: #DBA901;
+}
+
+.bxName-fr input[type='text'],
+.bxEmail-fr input[type='text'],
+.bxUser-fr input[type='text'],
+.bxUser-fr input[type='select'],
+.bxPass-fr input[type='password'] {
+    background-color: transparent;
+    border: none !important;
+    border-bottom: thin solid #DBA901 !important;
+    color: black;
+    width: 340px;
+}
+
+.bx-fr-marcacao input[type='text'],
+.bx-fr-marcacao input[type='select'],
+.bx-fr-marcacao input[type='date'],
+.bx-fr-marcacao input[type='password'],
+.bx-fr-marcacao input[type='text'],
+.bx-fr-marcacao input[type='number'] {
+    background-color: transparent;
+    border: none !important;
+    border-bottom: thin solid #DBA901 !important;
+    color: black;
+    width: 530px;
+    outline-color: #DBA901;
+}
+
+#select-time-current {
+    background-color: transparent;
+    border: none !important;
+    border-bottom: thin solid #DBA901 !important;
+    color: #DBA901;
+    width: 530px;
+}
+
+#date-marcacao {
+    background-color: transparent;
+    border: none !important;
+    border-bottom: thin solid #DBA901 !important;
+    color: #DBA901;
+    width: 300px;
+}
+
+#item-time-marcacao {
+    background-color: transparent;
+    border: none !important;
+    border-bottom: thin solid #DBA901 !important;
+    color: #DBA901;
+    width: 170px;
+    margin-left: 50px;
+}
+
+#idServico {
+    background-color: transparent;
+    border: none !important;
+    border-bottom: thin solid #DBA901 !important;
+    color: #DBA901;
+    width: 530px;
+}
+
+.obs_icon-marcacao,
+.name_icon-marcacao,
+.phone_icon-marcacao,
+.service_icon-marcacao,
+.time_icon-marcacao,
+.date_icon-marcacao,
+.obs_icon-marcacao {
+    color: #DBA901;
+    margin-top: 12px;
+}
+
+.bxUserSave-marcacao label {
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 12px;
+}
+
+.bxPass-fr-marcacao {
+    margin-bottom: 12px;
+}
+
+.bxUserSave-marcacao:hover {
+    color: #DBA901;
+    background: white;
+    border: thin #DBA901 solid;
+    cursor: pointer;
+}
+
+#line-up-confir {
+    border: black solid;
+    border-bottom: black 12px;
+    border-width: thin;
+    width: 520px;
+    text-align: center;
+    margin: auto;
+    margin-top: 90px;
+}
+
+#line-down-confir {
+    border: black solid;
+    border-bottom: black 12px;
+    width: 220px;
+    text-align: center;
+    margin: auto;
+    margin-top: 12px;
+    border-width: thin;
+}
+
+.checkConfirm {
+    margin-right: 24px;
+}
+
+.checkConfirm:hover {
+    color: green;
+}
+
+.editConfirm:hover {
+    color: #DBA901;
+    ;
+}
+
+.box-icon-confirmar-marcacao {
+    margin: auto;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#id-title-info-marcacao {
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+    color: green;
+    font-size: 18px;
+    font-style: italic;
+}
+
+.box-check-in-marcacao {
+    border-radius: 12px;
+    border: solid 5px #DBA901;
+    border-width: thin;
+    width: 560px;
+    height: 450px;
+    margin: auto;
+    margin-top: 140px;
+    display: none;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.box-check-in-marcacao h4 {
+    color: #DBA901;
+    /*     color: red; */
+    background: black;
+    margin-top: 12px;
+    margin-left: 12px;
+    margin-right: 12px;
+    border-radius: 2px;
+}
+
+
+/* termo e protecção de dados ****/
+
+.box-check-term-responsability {
+    float: right;
+    margin-right: 30px;
+    margin-top: -30px;
+}
+
+#id_termo_show:hover {
+    cursor: pointer;
+    border-bottom: thin black solid;
+}
+
+.box-info-termos {
+    position: fixed;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20%;
+    z-index: 99;
+    width: 65%;
+    border: thin solid #DBA901;
+    background: white;
+    margin-top: 0%;
+}
+
+.box-item-termos {
+    margin: auto;
+}
+
+.box-logo-termos {
+    text-align: center;
+    margin-top: 12px;
+}
+
+.box-logo-termos img {
+    width: 120px;
+    height: 80px;
+}
+
+.box-logo-termos h4 {
+    font-weight: bold;
+}
+
+.box-text-termo {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 24px;
+    width: 100%;
+    height: 60%;
+}
+
+.p-text-termos {
+    text-align: justify;
+    padding-left: 23px;
+    padding-right: 23px;
+}
+
+.bx-btn-termos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+.bx-not {
+    width: 100%;
+    height: 100%;
+    background: #DBA901;
+    margin-left: 12px;
+    /*  margin-bottom: 12px; */
+    color: white;
+}
+
+.bx-not:hover {
+    cursor: pointer;
+    border: thin solid #DBA901;
+    background: white;
+    color: #DBA901;
+}
+
+.bx-yes:hover {
+    cursor: pointer;
+    border: thin solid #DBA901;
+    background: white;
+    color: #DBA901;
+}
+
+.bx-not label,
+.bx-yes label {
+    padding-top: 2px;
+    margin-top: 2px;
+}
+
+.bx-yes {
+    width: 100%;
+    height: 100%;
+    background: #DBA901;
+    margin-left: 25px;
+    margin-right: 12px;
+    /*  margin-bottom: 12px; */
+    color: white;
+}
+
+.box-info-marcacao {
+    display: flex;
+    border-radius: 12px;
+    border: solid 5px #DBA901;
+    border-width: thin;
+    width: 500px;
+    height: 200px;
+    margin: auto;
+    display: none;
+    margin-bottom: 20px;
+    margin-top: 170px;
+}
+
+#title-detalhesMarcacao {
+    margin-top: 30px;
+    text-align: center;
+    font-weight: bold;
+    text-decoration-line: underline;
+}
+
+.box-fr-item-recrutamento input[type="text"] {
+    background-color: transparent;
+    border: none !important;
+    border-bottom: thin solid #DBA901 !important;
+    color: black;
+    width: 650px;
+    outline-color: #DBA901;
+}
+
+.box-fr-item-recrutamento textarea {
+    background-color: transparent;
+    border: none !important;
+    border-bottom: thin solid #DBA901 !important;
+    color: black;
+    width: 650px;
+    height: 200px;
+    outline-color: #DBA901;
+    resize: none;
+}
+
+.box-icon-recrutamento {
+    color: #DBA901;
+}
+
+.box-item-recrutamento {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.box-text-info-recrutamento {
+    border-radius: 12px;
+    border: solid 5px #DBA901;
+    border-width: thin;
+    width: 700px;
+    height: 350px;
+    margin: auto;
+    margin-top: 10%;
+    display: block;
+    margin-bottom: 30px;
+}
+
+.box-title-recrutamento,
+.box-title-sugestao {
+    border-radius: 12px;
+    border-width: thin;
+    width: 100%;
+    height: 50px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-left: 12px;
+}
+
+.box-section-recrutamento {
+    border-radius: 12px;
+    border-width: thin;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    margin-top: 15px;
+    display: flex;
+    margin-bottom: 30px;
+}
+
+
+/*   marcação  */
+
+.box-lista-marcacao {
+    display: none;
+    border: solid thin #DBA901;
+    height: 500px;
+    margin: auto;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-bottom: 12px;
+}
+
+.box-lista-marcacao h4 {
+    text-align: center;
+    padding-top: 6px;
+}
+
+.dateFilter_marcacao {
+    /*   float: right; */
+    margin-left: 12px;
+    margin-bottom: 12px;
+    margin-top: 10px;
+}
+
+.column-title-marcacao {
+    display: flex;
+}
+
+#id_comun .box_itemNumber_mc {
+    font-weight: bold;
+    width: 10px;
+    margin-left: 12px;
+    height: 25px;
+    border: solid thin #DBA901;
+    background: #DBA901;
+}
+
+#id_comun .box_itemCod_mc {
+    font-weight: bold;
+    background: #DBA901;
+}
+
+#id_comun .box_itemNome_mc {
+    font-weight: bold;
+    background: #DBA901;
+}
+
+#id_comun .box_itemdata_mc {
+    font-weight: bold;
+    background: #DBA901;
+}
+
+#id_comun .box_itemservico_mc {
+    font-weight: bold;
+    background: #DBA901;
+}
+
+#id_comun .box_itemContacto_mc {
+    font-weight: bold;
+    background: #DBA901;
+}
+
+#id_comun .box_itemhr_mc {
+    font-weight: bold;
+    background: #DBA901;
+}
+
+#id_comun .box_itemconfig_mc {
+    font-weight: bold;
+    background: #DBA901;
+}
+
+#id_comun .box_itemobs_mc {
+    font-weight: bold;
+    background: #DBA901;
+}
+
+
+/*   comumn dimanic end  */
+
+.box-dinamic-list-marcacao {
+    height: 320px;
+    overflow: auto;
+    padding-right: 12px;
+    margin-right: 12px;
+}
+
+.box-dinamic-comun {
+    padding-right: 12px;
+    margin-right: 12px;
+    margin-bottom: 8px;
+}
+
+.bx-list-all-mc {
+    display: flex;
+    padding-bottom: 8px;
+}
+
+.box_itemNumber_mc {
+    margin-left: 12px;
+    margin-right: 12px;
+    width: 20px;
+    height: 25px;
+    border: solid thin #DBA901;
+}
+
+.box_itemCod_mc {
+    padding-left: 4px;
+    margin-right: 12px;
+    width: 200px;
+    height: 25px;
+    border: solid thin #DBA901;
+    text-align: left;
+}
+
+.box_itemNome_mc {
+    padding-left: 4px;
+    margin-right: 12px;
+    width: 400px;
+    height: 25px;
+    border: solid thin #DBA901;
+    text-align: left;
+}
+
+.box_itemContacto_mc {
+    margin-right: 12px;
+    width: 300px;
+    height: 25px;
+    border: solid thin #DBA901;
+    text-align: center;
+}
+
+.box_itemservico_mc {
+    margin-right: 12px;
+    width: 320px;
+    height: 25px;
+    border: solid thin #DBA901;
+    text-align: left;
+    padding-left: 4px;
+}
+
+.box_itemdata_mc {
+    margin-right: 12px;
+    width: 300px;
+    height: 25px;
+    border: solid thin #DBA901;
+    text-align: center;
+}
+
+.box_itemhr_mc {
+    margin-right: 12px;
+    width: 230px;
+    height: 25px;
+    border: solid thin #DBA901;
+    text-align: center;
+}
+
+.box_itemobs_mc {
+    margin-right: 12px;
+    width: 350px;
+    height: 25px;
+    border: solid thin #DBA901;
+}
+
+.lbl_itemObs_nome {
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.box_itemconfig_mc {
+    border: solid thin #DBA901;
+    width: 100px;
+    height: 25px;
+    text-align: center;
+}
+
+#pesquisa_cd_mc {
+    width: 165px;
+}
+
+
+/*   recrutamento  */
+
+.box-gestao-recrutamento {
+    display: none;
+    border: solid thin #DBA901;
+    width: 830px;
+    height: 400px;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.box-gestao-recrutamento h4 {
+    text-align: center;
+    padding-top: 6px;
+}
+
+.column-title-recrutamento {
+    display: inline-flex;
+    margin-top: 8px;
+}
+
+#itemNome_recrutamento {
+    margin-left: 20px;
+    margin-right: 200px;
+}
+
+.box_itemNome {
+    margin-left: 15px;
+    margin-right: 10px;
+    border: solid thin #DBA901;
+    width: 230px;
+    height: 25px;
+}
+
+.box_itemPhone {
+    margin-right: 10px;
+    border: solid thin #DBA901;
+    width: 160px;
+    height: 25px;
+}
+
+.box_itemEmail {
+    margin-right: 10px;
+    border: solid thin #DBA901;
+    width: 230px;
+    height: 25px;
+}
+
+.box_show_cv {
+    background: #DBA901;
+    width: 80px;
+    height: 25px;
+    text-align: center;
+}
+
+.box_show_cv:hover {
+    cursor: pointer;
+    border: solid thin #DBA901;
+    color: #DBA901;
+    background: white;
+}
+
+.box-lista-candidaturas .fa-trash-alt {
+    margin-left: 40px;
+    margin-bottom: 6px;
+}
+
+.box-lista-candidaturas .fa-trash-alt:hover {
+    cursor: pointer;
+    color: red;
+}
+
+#itemPhone_recrutamento {
+    margin-right: 150px;
+}
+
+#itemEmail_recrutamento {
+    margin-right: 200px;
+}
+
+#itemApagar_recrutamento {
+    margin-right: 100px;
+}
+
+#itemPDF_recrutamento {
+    margin-right: 100px;
+}
+
+.box-lista-candidaturas {
+    width: 820px;
+    height: 210px;
+    overflow: auto;
+    padding-right: 12px;
+}
+
+.box-candidatura {
+    display: flex;
+}
+
+.box-pdf {
+    margin: auto;
+}
+
+.box-pdf p {
+    text-decoration: none;
+    text-align: center;
+    font-style: italic;
+}
+
+.box-section-recrutamento p,
+.box-section-sugestao p {
+    text-align: justify;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.box-title-recrutamento label {
+    font-size: 20px;
+    font-weight: bold;
+    border-bottom: thick solid #DBA901;
+}
+
+.box-title-sugestao label {
+    font-size: 20px;
+    font-weight: bold;
+    border-bottom: thick solid #DBA901;
+}
+
+.main-box-recrutamento {
+    border-radius: 12px;
+    border: solid 5px #DBA901;
+    border-width: thin;
+    width: 700px;
+    height: 630px;
+    margin: auto;
+    margin-top: 30px;
+    display: block;
+    margin-bottom: 30px;
+}
+
+.box-btn-recrutamento {
+    margin-top: 20px;
+    margin-left: 200px;
+    position: relative;
+    color: white;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+    width: 259px;
+    height: 50px;
+    background: #DBA901;
+    text-align: center;
+    padding-top: 12px;
+}
+
+.box-btn-recrutamento label {
+    font-weight: bold;
+}
+
+.box-upload-cv {
+    width: 320px;
+}
+
+.box-upload-cv input[type="file"] {
+    background-color: transparent;
+    border: none !important;
+    border-bottom: thin solid #DBA901 !important;
+    color: black;
+    width: 300px;
+    outline-color: #DBA901;
+}
+
+.info-error-recrutamento {
+    display: none;
+    text-align: center;
+    margin: auto;
+    color: red;
+}
+
+.box-info-add-recrutamento {
+    border-radius: 12px;
+    border: solid 5px #DBA901;
+    border-width: thin;
+    width: 500px;
+    height: 200px;
+    margin: auto;
+    margin-top: 30px;
+    display: none;
+}
+
+.box-btn-recrutamento:hover {
+    cursor: pointer;
+    color: #DBA901;
+    background: white;
+    border: thin solid #DBA901;
+}
+
+.box-ID_marcacao {
+    float: left;
+    margin-left: 12px;
+    margin-top: 24px;
+    font-weight: bold;
+}
+
+.item-currentDate-marcacao {
+    float: right;
+    margin-right: 12px;
+    margin-top: 24px;
+    font-weight: bold;
+}
+
+.box-confirm-detalhes-marcacao {
+    margin-top: 30px;
+    text-align: center;
+}
+
+#name_check,
+#phone_check,
+#servico_check,
+#time_check,
+#date_check {
+    font-weight: bold;
+}
+
+.box-date-other {
+    display: none;
+}
+
+.name_icon,
+.email_icon,
+.user_icon,
+.pass_icon {
+    color: #DBA901;
+}
+
+.date_icon-marcacao:hover {
+    color: green
+}
+
+.box-info-delet {
+    display: none;
+    border-radius: 12px;
+    border: solid 5px #DBA901;
+    border-width: thin;
+    width: 300px;
+    height: 130px;
+    z-index: 1;
+    position: absolute;
+    margin-left: 20%;
+    text-align: center;
+    background: #E6E6E6;
+}
+
+#removId {
+    margin-top: 23px;
+}
+
+.iconDialog {
+    /* margin-left: 30px;
+    padding-top: 30px;
+ */
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    color: #DBA901;
+    margin: 8px;
+}
+
+.iconDialog:hover {
+    color: green;
+}
+
+.box-timers-today {
+    border: thin solid #DBA901;
+    width: 530px;
+    height: 330px;
+    margin: auto;
+    margin-bottom: 30px;
+    display: none;
+}
+
+.box-add-timer {
+    display: none;
+    border: thin solid #DBA901;
+    border-width: thin;
+    width: 350px;
+    height: 250px;
+    position: absolute;
+    margin-left: 6%;
+    background: #F2F2F2;
+}
+
+.box-select-all-timer {
+    text-align: center;
+    margin-top: 8px;
+}
+
+#check-lbl-timer {
+    margin-right: 15px;
+}
+
+.box-title-timer {
+    display: inline-flex;
+    margin-left: -20px;
+    margin-top: 20px;
+}
+
+.icon-timer {
+    width: 140px;
+    margin-top: 30px;
+}
+
+.itemTime {
+    margin-left: 30px;
+    margin-right: 10px;
+}
+
+.box-items-timers {
+    text-align: center;
+}
+
+.box-items-timers input[type="checkbox"] {
+    width: 30px;
+}
+
+.itemHora-box,
+.itemUser-box {
+    width: 150px;
+}
+
+.itemDate-box {
+    margin-left: -55px;
+    width: 180px;
+}
+
+.bx-listTimer {
+    margin: auto;
+    text-align: center;
+}
+
+.box-list-timer-dinamic {
+    margin-top: 12px;
+    width: 520px;
+    height: 160px;
+    margin-bottom: 18px;
+    overflow: auto;
+}
+
+
+/** END BOX USER **/
+
+#itemsMarcacao {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    width: 1200px;
+    display: none;
+    border-radius: 12px;
+    border: solid 5px #DBA901;
+    margin: auto;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.rowHorizontal {
+    background-color: #000000;
+    height: 2px;
+    width: 1150px;
+    margin: auto;
+    margin-bottom: 12px;
+    margin-top: -20px;
+}
+
+.box-presentation {
+    margin: auto;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 500px;
+    height: 200x;
+}
+
+#presentantionAdmin {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.box-status {
+    z-index: 3;
+    display: none;
+    width: 180px;
+    height: 140px;
+    border: thin solid #DBA901;
+    text-align: center;
+    margin-left: 400px;
+    position: absolute;
+    background: #F2F2F2;
+}
+
+#cancel {
+    margin-left: 150px;
+}
+
+#cancel:hover {
+    cursor: pointer;
+}
+
+.dinamic-iconUser {
+    width: 50px;
+    height: 25px;
+    margin-top: -30px;
+    margin-left: 30px;
+}
+
+#IDuserTitle,
+input {
+    margin-right: 4px;
+}
+
+.box-dateFilter {
+    margin-left: 620px;
+    margin-bottom: 12px;
+}
+
+.IconSearch {
+    color: #DBA901;
+}
+
+
+/* #FilterName input[type='text'] {
+        margin-right: 50px;
+        width: 60px;
+    }*/
+
+#FilterName {
+    width: 165px;
+}
+
+
+/*  .box-dateFilte input[type='text'] {
+        width: 20px;
+    } */
+
+.dinamic-list :hover {
+    background-color: #DBA901;
+}
+
+.dinamic-list :active {
+    background-color: #8A4B08;
+}
+
+.bx-item-data-user {
+    text-align: center;
+}
+
+.footer-text {
+    font-style: italic;
+}
+
+.box-graphic {
+    display: flex;
+    width: 70%;
+    height: 60%;
+    border: thin solid #DBA901;
+    margin: auto;
+    text-align: center;
+    margin-top: 125px;
+}
+
+
+/* .box-report {
+    text-align: justify;
+    background: red;
+}
+ */
+
+
+/* .box-report section {
+    font-style: italic;
+    font-weight: lighter;
+    text-decoration: none;
+}
+ */
+
+
+/*#status {
+    margin-top: 2px;
+}*/
